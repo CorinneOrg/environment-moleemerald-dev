@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:moleemerald/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:moleemerald/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:moleemerald/prow:hmacToken
+segmentWriteKey: vault:moleemerald:segmentWriteKey
